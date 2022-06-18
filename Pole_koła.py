@@ -1,6 +1,3 @@
 import math
-Pi=math.pi
-Promien = input ("Podaj dlugosc promienia W Twoim Kole: ")
-Promien =int(Promien)
-Pole = ((math.pow(Promien,2))*Pi)
-print('Pole kola :', Pole, 'cm2')
+Promien = int(input("Podaj dlugość promienia: "))
+print('Pole koła: '+str((Promien**2)*math.pi))
